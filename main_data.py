@@ -8,6 +8,7 @@ from time import sleep
 from logger import logger
 from mail_setting import send_mail
 
+
 #记得修改路径
 path = "C:\\Users\\xieminchao\\Desktop\\dolby"
 os.chdir(path)
