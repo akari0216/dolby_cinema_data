@@ -13,9 +13,9 @@ smtpserver = "smtp.exmail.qq.com"
 username = "xxsjfxyj@jycinema.com"
 password = "JYshuju666"
 sender = "xxsjfxyj@jycinema.com"
-receiver = "yqliu@dolby.com,yyzhan@dolby.com,Yuzhao.Zhang@dolby.com"
+receiver = "yqliu@dolby.com,yyzhan@dolby.com"
 #抄送名单
-receiver_cc = "liquanji@jycinema.com,yanyuyu@jycinema.com,chenchengying@jycinema.com,xieminchao@jycinema.com"
+receiver_cc = "liquanji@jycinema.com,yanyuyu@jycinema.com,Yuzhao.Zhang@dolby.com,chenchengying@jycinema.com,xieminchao@jycinema.com"
 smtp = smtplib.SMTP_SSL(smtpserver,465)
 smtp.ehlo()
 smtp.login(user = username,password = password)
